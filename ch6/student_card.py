@@ -1,4 +1,7 @@
 class StudentCard:
+    # クラス変数
+    school_name = "Python大学"
+
     def __init__(self, id, name):
         print("初期化メソッド内の処理です")
         self.id = id
@@ -10,3 +13,5 @@ b = StudentCard(1235, "佐藤花子")
 
 print(f"a.id: {a.id}, a.name: {a.name}")
 print(f"b.id: {b.id}, b.name: {b.name}")
+
+print(StudentCard.school_name)
