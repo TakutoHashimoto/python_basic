@@ -1,14 +1,12 @@
 class StudentCard:
-    def __init__(self):
+    def __init__(self, id, name):
         print("初期化メソッド内の処理です")
-        self.id = 0
-        self.name = "未定"
+        self.id = id
+        self.name = name
 
 
-a = StudentCard()
-b = StudentCard()
+a = StudentCard(1234, "鈴木太郎")
+b = StudentCard(1235, "佐藤花子")
 
-a.id, a.name = 1234, "鈴木太郎"
-b.id, b.name = 1235, "佐藤花子"
 print(f"a.id: {a.id}, a.name: {a.name}")
 print(f"b.id: {b.id}, b.name: {b.name}")
