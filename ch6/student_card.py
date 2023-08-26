@@ -8,8 +8,8 @@ class StudentCard:
         print(f"氏名: {self.name}")
 
 
-a = StudentCard(1234, "鈴木太郎")
-b = StudentCard(1235, "佐藤花子")
+# a = StudentCard(1234, "鈴木太郎")
+# b = StudentCard(1235, "佐藤花子")
 
-a.print_info()
-b.print_info()
+# a.print_info()
+# b.print_info()
