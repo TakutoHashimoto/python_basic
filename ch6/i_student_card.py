@@ -8,5 +8,4 @@ class IStudentCard(StudentCard):
     
     def print_info(self):
         print(f"国籍: {self.nationality}")
-        print(f"学籍番号: {self.id}")
-        print(f"氏名: {self.name}")
+        super().print_info()
